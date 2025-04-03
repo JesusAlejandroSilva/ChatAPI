@@ -1,0 +1,30 @@
+CREATE DATABASE ChatDb;
+GO
+
+USE ChatDb;
+GO
+
+CREATE TABLE Usuarios (
+    Id INT PRIMARY KEY IDENTITY(1,1),
+    Apodo NVARCHAR(50) NOT NULL,
+    NombreCompleto NVARCHAR(100) NOT NULL,
+    ImagenPerfil NVARCHAR(200) NULL
+);
+GO
+
+CREATE TABLE Salas (
+    Id INT PRIMARY KEY IDENTITY(1,1),
+    Nombre NVARCHAR(100) NOT NULL
+);
+GO
+
+CREATE TABLE Mensajes (
+    Id INT PRIMARY KEY IDENTITY(1,1),
+    Texto NVARCHAR(MAX) NOT NULL,
+    Fecha DATETIME NOT NULL DEFAULT GETDATE(),
+    UsuarioId INT,
+    SalaId INT,
+    FOREIGN KEY (UsuarioId) REFERENCES Usuarios(Id),
+    FOREIGN KEY (SalaId) REFERENCES Salas(Id)
+);
+GO
