@@ -1,0 +1,11 @@
+C:\Users\alejo\source\repos\ChatAPI\Chat.Core\bin\Debug\net8.0\Chat.Core.deps.json
+C:\Users\alejo\source\repos\ChatAPI\Chat.Core\bin\Debug\net8.0\Chat.Core.dll
+C:\Users\alejo\source\repos\ChatAPI\Chat.Core\bin\Debug\net8.0\Chat.Core.pdb
+C:\Users\alejo\source\repos\ChatAPI\Chat.Core\obj\Debug\net8.0\Chat.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alejo\source\repos\ChatAPI\Chat.Core\obj\Debug\net8.0\Chat.Core.AssemblyInfoInputs.cache
+C:\Users\alejo\source\repos\ChatAPI\Chat.Core\obj\Debug\net8.0\Chat.Core.AssemblyInfo.cs
+C:\Users\alejo\source\repos\ChatAPI\Chat.Core\obj\Debug\net8.0\Chat.Core.csproj.CoreCompileInputs.cache
+C:\Users\alejo\source\repos\ChatAPI\Chat.Core\obj\Debug\net8.0\Chat.Core.dll
+C:\Users\alejo\source\repos\ChatAPI\Chat.Core\obj\Debug\net8.0\refint\Chat.Core.dll
+C:\Users\alejo\source\repos\ChatAPI\Chat.Core\obj\Debug\net8.0\Chat.Core.pdb
+C:\Users\alejo\source\repos\ChatAPI\Chat.Core\obj\Debug\net8.0\ref\Chat.Core.dll
